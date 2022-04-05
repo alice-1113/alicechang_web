@@ -1,0 +1,182 @@
+
+body {
+    background-color: #111111;
+    color: #CCCCCC;
+    width: 1000px;
+    height: 150%;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.main-contens {
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.separate {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.current {
+    background-color: #434343;
+}
+
+.header-wrapper ul, .footer-wrapper ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-wrapper ul li, .footer-wrapper ul li {
+    list-style-type: none;
+    border: 1px solid #ABABAB;
+}
+
+.header-wrapper ul li a, .footer-wrapper ul li a {
+    color: #CCCCCC;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+.header-wrapper ul li a:visited, .footer-wrapper ul li a:visited {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+.header-wrapper ul li a:hover, .footer-wrapper ul li a:hover {
+    background-color: gray;
+    text-decoration: none;
+}
+
+.links a {
+    color: #f587ec;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: #f587ec
+}
+
+.links a:hover {
+    background-color: #db4e4e;
+}
+
+.links table {
+    border-collapse: collapse;
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.links th, .links td {
+    border: 2px dashed skyblue;
+    text-align: center;
+    height: 50px;
+}
+
+.teams {
+    margin-bottom: 5%;
+}
+
+.teams ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.teams ul li {
+    list-style-type: none;
+}
+
+.teammates ol {
+    width: 100%;
+    margin: 1% auto;
+    padding: 0 0;
+}
+
+.profile-wrapper {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.profile-wrapper table {
+    margin-left: 5%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-wrapper table th, .profile-wrapper table td {
+    border: 2px dashed skyblue;
+}
+
+.profile-wrapper table a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-wrapper table a:hover {
+    background-color: #db4e4e;
+}
+
+img {
+    object-fit: cover;
+    width: 45%;
+}
+
+.attention {
+    color: yellow;
+    font-size: 12px;
+}
+
+.fav-animes-container {
+    font-size: 14px;
+}
+
+.fav-animes-container table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.fav-animes-container table th, .fav-animes-container table td {
+    border: 2px dashed skyblue;
+}
+
+.return-profile {
+    text-align: center;
+}
+
+.return-profile a {
+    color: #f587ec;
+    text-decoration: none;
+}
+
+.return-profile a:visited {
+    color: #f587ec;
+}
+
+.return-profile a:hover {
+    background-color: #db4e4e;
+}
