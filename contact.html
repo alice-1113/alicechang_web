@@ -24,12 +24,27 @@
         </div>
     </header>
     <div class="container">
-        <div class="form-wrapper" hidden>
-            <form>a</form>
-        </div>
         <p>メールでお問い合わせ</p>
-        <p>Twitterでお問い合わせ</p>
-        <p>フォームでお問い合わせ</p>
+        <p>Twitterでお問い合わせ: <a href="https://twitter.com/_alice_chang_" target="_blank">@_alice_chang_</a></p>
+
+        <div class="form-wrapper" hidden>
+            <p>フォームでお問い合わせ</p>
+            <form action="./contact.html" method="GET">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th><label for="username">名前</label></th>
+                            <td><input type="text" id="username"></td>
+                        </tr>
+                        <tr>
+                            <th><label for="">お問い合わせ内容</label></th>
+                            <td><textarea cols="30" rows="4"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="submit">submit</button>
+            </form>
+        </div>
     </div>
 
     <footer>
