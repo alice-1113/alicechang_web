@@ -183,5 +183,8 @@ img {
 
 .container {
     width: 100%;
+}
 
+.footer-wrapper .tweet-button-wrapper {
+    float: right;
 }
